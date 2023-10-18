@@ -3,7 +3,7 @@
 
 ### DeunDuino - ESP32-based Arduino Development Board
 I couldn't find a decent development board, so I decided to make one myself.<br>
-There is currently no plan to sell, but for sample inquiries, please send the email on the GitHub profile.
+There is currently no plan to sell, but for sample inquiries, send the email on the GitHub profile.
 
 ### 든두이노 - ESP32 기반 아두이노 개발 보드
 맘에드는 아두이노 개발 보드가 없어서 직접 만들어 쓰기로 했습니다.<br>
@@ -15,7 +15,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 #### 생산중... 일주일 이내 공개 예정.
 ![](./images/DD_NET_3D.png)
 
-- ESP32-S3 microcontroller (ESP32-WROOM-32E) with W5500 Ethernet controller
+- ESP32-S3 microcontroller (ESP32-S3-WROOM-1) with W5500 Ethernet controller
 - Xtensa LX7 dual-core 32-bit CPU up to 240MHz, 512KB SRAM + 2MB PSRAM and 16MB flash memory.
 - Wi-Fi (2.4GHz, IEEE 802.11b/g/n), Bluetooth LE 5 and mesh.
 - Two USBs for serial and OTG/JTAG debugging.
