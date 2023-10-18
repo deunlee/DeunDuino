@@ -2,12 +2,11 @@
 ![](./images/DD_Main.png)
 
 ### DeunDuino - ESP32-based Arduino Development Board
-I couldn't find a decent development board, so I decided to make one myself.
-
+I couldn't find a decent development board, so I decided to make one myself.<br>
 There is currently no plan to sell, but for sample inquiries, please send the email on the GitHub profile.
 
-맘에드는 아두이노 개발 보드가 없어서 직접 만들어 쓰기로 했습니다.
-
+### 든두이노 - ESP32 기반 아두이노 개발 보드
+맘에드는 아두이노 개발 보드가 없어서 직접 만들어 쓰기로 했습니다.<br>
 KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의는 GitHub 프로필에 있는 이메일로 바랍니다.
 
 
