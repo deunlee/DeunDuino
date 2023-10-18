@@ -21,7 +21,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Two USBs for serial and OTG/JTAG debugging.
 - 100BaseTX Ethernet PHY/MAC with up to 80MHz SPI clock.
 - Type-C USB connector (supports C-to-C cable and PD charger)
-- microSD card slot on the bottom (supports up to 32GB)
+- microSD card slot (supports up to 32GB)
 - 4 LED indicators for power, TXD, RXD, user(RGB, GPIO48)
 - Additional I2C pin header for OLED LCD.
 - Upload a sketch without pressing the boot button.
@@ -30,7 +30,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Reverse polarity protection for USB.
 - ESD protection for USB and SD card.
 - Multiple power sources can be input at the same time. (pin header has the highest priority)
-- High-efficiency synchronous step-down converter up to 95%.
+- High-efficiency synchronous step-down converter up to 95% efficiency.
 - Many ceramic capacitors for stable power supply.
 - Pi-filter to reduce noise from power rail and SD card.
 - 4-layer PCB design with inner ground planes to ensure return path for all signals.
@@ -48,7 +48,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Type-C USB connector (supports C-to-C cable and PD charger)
 - microSD card slot on the bottom (supports up to 32GB)
 - 5 LED indicators for user(GPIO2), TXD, RXD, battery charging and battery fully charged.
-- Built-in lithium battery charger (PH 2.0 connector)
+- Built-in lithium battery charger (460mA, PH 2.0 connector)
 - Built-in precise RTC for timekeeping in deep-sleep mode. (±5ppm, ±0.432 second/day)
 - Upload a sketch without pressing the boot button.
 - Same pinout as the ESP32-DevKit (except GPIO13)
@@ -56,7 +56,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Reverse polarity protection for USB and battery.
 - ESD protection for USB and SD card.
 - Multiple power sources can be input at the same time. (pin header has the highest priority, battery has the lowest priority)
-- High-efficiency synchronous step-down converter up to 95%.
+- High-efficiency synchronous step-down converter up to 95% efficiency.
 - Many ceramic/tantalum capacitors for stable power supply.
 - Pi-filter to reduce noise from power rail and SD card.
 - Completely blocks standby current of SD card in deep-sleep mode.
