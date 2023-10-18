@@ -30,7 +30,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Reverse polarity protection for USB.
 - ESD protection for USB and SD card.
 - Multiple power sources can be input at the same time. (pin header has the highest priority)
-- High-efficiency synchronous step-down converter up to 96%.
+- High-efficiency synchronous step-down converter up to 95%.
 - Many ceramic capacitors for stable power supply.
 - Pi-filter to reduce noise from power rail and SD card.
 - 4-layer PCB design with inner ground planes to ensure return path for all signals.
@@ -56,7 +56,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Reverse polarity protection for USB and battery.
 - ESD protection for USB and SD card.
 - Multiple power sources can be input at the same time. (pin header has the highest priority, battery has the lowest priority)
-- High-efficiency synchronous step-down converter up to 96%.
+- High-efficiency synchronous step-down converter up to 95%.
 - Many ceramic/tantalum capacitors for stable power supply.
 - Pi-filter to reduce noise from power rail and SD card.
 - Completely blocks standby current of SD card in deep-sleep mode.
@@ -65,7 +65,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 
 ![](./images/DD_LOG_RevA_Artwork.png)
 
-This board is optimized for battery operation by using a high-efficiency synchronous buck converter with up to 96% efficiency instead of a low-efficiency linear regulator.
+This board is optimized for battery operation by using a high-efficiency synchronous buck converter with up to 95% efficiency instead of a low-efficiency linear regulator.
 ESP32 deep-sleep mode current including DS3231M when using battery input is about 135uA.
 
 ![](./images/DD_LOG_Efficiency.png)
