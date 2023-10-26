@@ -13,7 +13,6 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 
 ## Adding boards to the PlatformIO
 Currently, the DeunDuino is not registered on the PlatformIO, so you should add it manually.<br>
-Arduino IDE is not yet supported. Instead, use the PlatformIO IDE with the Arduino framework.
 
 1. Copy all json files under [./platformio](./platformio) to the path below.
    + `%USERPROFILE%/.platformio/platforms/espressif32/boards`
@@ -23,7 +22,8 @@ Arduino IDE is not yet supported. Instead, use the PlatformIO IDE with the Ardui
 
 
 ## DeunDuino NET
-![](./images/DD_NET_3D.png)
+![](./images/DD_NET_1.png)
+![](./images/DD_NET_2.png)
 
 - ESP32-S3 microcontroller (ESP32-S3-WROOM-1) with W5500 Ethernet controller
 - Xtensa LX7 dual-core 32-bit CPU up to 240MHz, 512KB SRAM + 2MB PSRAM and 16MB flash memory.
@@ -74,12 +74,12 @@ Arduino IDE is not yet supported. Instead, use the PlatformIO IDE with the Ardui
 - 4-layer PCB design with inner ground planes to ensure return path for all signals.
 
 ![](./images/DD_LOG_RevA_Artwork.png)
+![](./images/DD_LOG_Schematic.png)
 
 This board is optimized for battery operation by using a high-efficiency synchronous buck converter with up to 95% efficiency instead of a low-efficiency linear regulator.
 ESP32 deep-sleep mode current including DS3231M when using battery input is about 135uA.
 
 ![](./images/DD_LOG_Efficiency.png)
-
 ![](./images/DD_LOG_Thermal.png)
 
 
