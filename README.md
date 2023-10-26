@@ -28,12 +28,12 @@ Currently, the DeunDuino is not registered on the PlatformIO, so you should add 
 - ESP32-S3 microcontroller (ESP32-S3-WROOM-1) with W5500 Ethernet controller
 - Xtensa LX7 dual-core 32-bit CPU up to 240MHz, 512KB SRAM + 2MB PSRAM and 16MB flash memory.
 - Wi-Fi (2.4GHz, IEEE 802.11b/g/n), Bluetooth LE 5 and mesh.
-- Two USBs for serial and OTG/JTAG debugging.
-- 100BaseTX Ethernet PHY/MAC with up to 80MHz SPI clock.
+- Two USBs for UART(serial), OTG and JTAG debugging.
+- 100BaseTX Ethernet PHY/MAC controller supporting 8 sockets simultaneously.
 - Type-C USB connector (supports C-to-C cable and PD charger)
 - microSD card slot (supports up to 32GB)
 - 4 LED indicators for power, TXD, RXD, user(RGB, GPIO48)
-- Additional I2C pin header for OLED display.
+- I2C pin header for OLED display. (1.30 inch, 64 x 128 recommended)
 - Upload a sketch without pressing the boot button.
 - Similar size and pinout to the Arduino Uno.
 - Overcurrent protection for USB. (hold 1.1A, trip 2.2A)
@@ -45,6 +45,11 @@ Currently, the DeunDuino is not registered on the PlatformIO, so you should add 
 - Pi-filter to reduce noise from power rail and SD card.
 - 4-layer PCB design with inner ground planes to ensure return path for all signals.
 - Of course, all differential pairs are length-matched.
+
+Examples:
+- [Ethernet HTTP](./examples/Ethernet_HTTP)
+- [NeoPixel RGB LED](./examples/NeoPixel_LED)
+- [OLED Display](./examples/OLED_Display)
 
 
 
@@ -72,6 +77,9 @@ Currently, the DeunDuino is not registered on the PlatformIO, so you should add 
 - Completely blocks standby current of SD card in deep-sleep mode.
 - Low deep-sleep mode current (0.1mA)
 - 4-layer PCB design with inner ground planes to ensure return path for all signals.
+
+Examples:
+- [DS3231 Deep Sleep](./examples/DS3231_DeepSleep)
 
 ![](./images/DD_LOG_RevA_Artwork.png)
 ![](./images/DD_LOG_Schematic.png)

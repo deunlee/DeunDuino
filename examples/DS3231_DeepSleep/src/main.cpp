@@ -141,8 +141,6 @@ void loop() {
         rtc.clearAlarm(2);
     }
 
-    delay(1000);
-
     if (millis() >= TIME_TO_RUNNING * 1000) {
         DateTime now = rtc.now();
         DateTime future(now + TimeSpan(TIME_TO_SLEEP));
@@ -161,6 +159,8 @@ void loop() {
         Serial.flush();
         Serial.println(F("[System] This will never be printed."));
     }
+
+    delay(1000);
 }
 
 // https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/sleep_modes.html

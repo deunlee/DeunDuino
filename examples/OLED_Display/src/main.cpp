@@ -1,3 +1,6 @@
+// Code by Deun Lee (https://github.com/deunlee)
+// MIT License
+
 #include <Arduino.h>
 #include <SPI.h>
 #include <Wire.h>

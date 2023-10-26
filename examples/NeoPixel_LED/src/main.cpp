@@ -1,3 +1,6 @@
+// Code by Deun Lee (https://github.com/deunlee)
+// MIT License
+
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 Adafruit_NeoPixel pixel = Adafruit_NeoPixel(NUM_NEOPIXEL, PIN_NEOPIXEL, NEO_GRB + NEO_KHZ800);
