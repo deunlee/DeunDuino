@@ -4,10 +4,10 @@
 #include <Adafruit_GFX.h>
 
 // #define DISPLAY_SH1106G
-#define DISPLAY_SH1107
 // #define DISPLAY_SSD1306
+#define DISPLAY_SH1107
 
-#define AUTO_I2C_DETECT
+#define AUTO_DETECT_I2C
 #define SCREEN_ADDRESS 0x3C // 0x3C or 0x3D
 #define OLED_RESET       -1 // Reset pin # (or -1 if sharing Arduino reset pin)
 
@@ -361,7 +361,7 @@ void setup() {
 
     byte i2c_address = SCREEN_ADDRESS;
 
-#ifdef AUTO_I2C_DETECT
+#ifdef AUTO_DETECT_I2C
     if      (i2c_check(0x3C)) i2c_address = 0x3C;
     else if (i2c_check(0x3D)) i2c_address = 0x3D;
 #endif

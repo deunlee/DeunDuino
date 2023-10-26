@@ -11,8 +11,18 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 
 
 
+## Adding boards to the PlatformIO
+Currently, the DeunDuino is not registered on the PlatformIO, so you should add it manually.<br>
+Arduino IDE is not yet supported. Instead, use the PlatformIO IDE with the Arduino framework.
+
+1. Copy all json files under [./platformio](./platformio) to the path below.
+   + `%USERPROFILE%/.platformio/platforms/espressif32/boards`
+2. Copy all directories under [./platformio](./platformio) to the path below.
+   + `%USERPROFILE%/.platformio/packages/framework-arduinoespressif32/variants`
+
+
+
 ## DeunDuino NET
-#### 생산중... 일주일 이내 공개 예정.
 ![](./images/DD_NET_3D.png)
 
 - ESP32-S3 microcontroller (ESP32-S3-WROOM-1) with W5500 Ethernet controller
@@ -23,7 +33,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Type-C USB connector (supports C-to-C cable and PD charger)
 - microSD card slot (supports up to 32GB)
 - 4 LED indicators for power, TXD, RXD, user(RGB, GPIO48)
-- Additional I2C pin header for OLED LCD.
+- Additional I2C pin header for OLED display.
 - Upload a sketch without pressing the boot button.
 - Similar size and pinout to the Arduino Uno.
 - Overcurrent protection for USB. (hold 1.1A, trip 2.2A)
@@ -34,7 +44,7 @@ KC 인증 비용 문제로 현재 판매 계획은 없습니다. 샘플 문의�
 - Many ceramic capacitors for stable power supply.
 - Pi-filter to reduce noise from power rail and SD card.
 - 4-layer PCB design with inner ground planes to ensure return path for all signals.
-- Of course, all of differential pairs are length-matched.
+- Of course, all differential pairs are length-matched.
 
 
 
